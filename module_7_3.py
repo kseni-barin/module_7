@@ -40,10 +40,3 @@ class WordsFinder:
             current_word_2[name] = count
         return current_word_2
 
-
-finder2 = WordsFinder('test2.txt', 'test.txt')
-print(finder2.get_all_words())
-print(finder2.find('if'))
-print(finder2.count('if'))
-
-
